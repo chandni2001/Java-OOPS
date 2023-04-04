@@ -32,12 +32,15 @@ public class WrapperClasses {
         // when a non primitive is final, you cannot reassign it
         //kunal = newkunal; // error
 
-        A obj;
-        for(int i = 0; i < 1000000000; i++) {
-            obj = new A("random name");
+        // A obj;
+        // for(int i = 0; i < 1000000000; i++) {
+        //     obj = new A("random name");
 
-            // obj.finalize(); we cant do it manually, automatically it is called
-        }
+        //     // obj.finalize(); we cant do it manually, automatically it is called
+        // }
+
+        A obj = new A("gfsdgkjd");
+        System.out.println(obj); // internally calls toString method(println)
 
     }
 
