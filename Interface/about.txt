@@ -1,0 +1,28 @@
+just like class, ehich contains only abstract method
+(collection of abstract method)
+
+--> keyword used--"implements"
+
+-->interface methods by default public ans abstract
+--> interface variables are by default public + static + final
+--> interface methods must be overriden inside implementing(sub class) classes
+
+client ----- interface ---- developers (100% client dependent)
+                |
+                |
+                only req. note no any implementation
+
+
+Difference btw interface and abstract 
+interface: 
+    -- conatins only abstarct methods
+    -- supports multiple inheritance
+    -- by default abstract methods are public + abstract
+    -- ny default abstract varia
+    -- when req. known but have no implementaion info.
+
+abstract:
+    --  conatins both abstract and non-abstract
+    -- doenst support multiple inheritance coz it is class only
+    -- no restriction on modifers
+    -- when incomplete implementaion known

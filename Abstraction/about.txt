@@ -1,0 +1,20 @@
+process of hiding implementation details from the user.
+only the set of services provided to the user
+
+adv: security
+    enhancement ---> 
+
+implementation: 1) using abstract class (20% -- 80%)
+                2) interface (100% developer will do) 
+
+--> abstract keyword for declaration
+--> we cant create object for abstract class, create reference variable from sub class
+--> may or may not contains abstract method
+--> to use abstarct class, we need to inherit it from sub classes 
+--> if class conatins partial implementation, use abstarct class
+
+--> used to represent common behaviour of different inheriting classes 
+ action same, implementaion diff
+
+--> half minded 
+--> abstratc method must be overridden in sub classes otherwise it will also become abstarct class

@@ -1,0 +1,55 @@
+def:  when one class inherits the property of another class
+
+Why use inheritance in java
+    For Method Overriding (so runtime polymorphism can be achieved).
+    For Code Reusability.
+
+
+four types --
+1) Single inheritance (one super, one sub class)
+
+    base  ---> derive
+
+2) multi-level inheritance
+
+    base --> derive1 --> derive2
+
+3) multiple inheritance(not supported in java through classes, usinf interface we can implement)
+    base1       base2
+     |          |
+     |          |
+     -- derive --
+
+if two classes providing the same service to the derive one , then its confusing for derive to known to whom it is inheriting
+hence ambuigity will arise(memory duplication) so java does'nt support this
+
+4) Hierarachical inheritance(more derive class from single base class)
+    base ---> derive1, derive2, derive 3(all derive are connected to super class)
+
+5) Hybrid inheritance(not supported in java through classes, usinf interface we can implement)
+    - student
+      |
+      |
+      exam      Project 
+                    |
+                    |
+      | |------------
+      | |
+      result
+
+--> "extends" keyword is used to perform inheritance
+--> cant access private members
+--> protected accessible
+--> a sub class contains all features of super class, so we should create the object of sub class 
+--> method Overriding possible
+
+
+syntax --
+// single inht. 
+class A { // super class
+
+}
+
+class B extends A { // sub class
+
+}

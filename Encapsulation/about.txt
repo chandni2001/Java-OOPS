@@ -1,0 +1,4 @@
+wrapping of a data members and member function in a single unit called encapsulation
+
+declare class Variables as private
+class methods as public 
